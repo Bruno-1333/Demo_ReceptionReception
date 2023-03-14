@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reception</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
+  <script src="Envoi.js" defer></script>
+
+
+</head>
+<body>
+<form action="pag_2.html" method="post" onsubmit="return stockage()">
+  <label for="nom">Nom</label>
+  <input type = text id="nom" name="nom" required>
+  <label for="dom">Don: </label>
+  <input type="number" id="dom" name="don" min="1" max="9">
+  <input type="submit" value="Soumettre">
+</form>
+
+
+</body>
+</html>
